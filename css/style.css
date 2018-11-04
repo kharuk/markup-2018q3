@@ -770,6 +770,94 @@ i.item1, i.item2, i.item3, i.item4{
     background-color: #ffffff;
 }
 
+.functions-section{
+    padding-top: 99px;
+    padding-bottom: 94px;
+    background-color: #ffffff;
+}
+
+.function-container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.function-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.function-item{
+    width: 225px;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.function-item:hover {
+    -webkit-transform: scale(1.1,1.1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.1,1.1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+
+.function-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.function-icon i{
+    font-size: 28px;
+    line-height: 20px;
+    color: white;
+    position: relative;
+    top: 19px;
+}
+
+.function-item .item1{
+    background-color: #f1c40f;
+}
+
+.function-item .item2{
+    background-color: #0faff1;
+}
+
+.function-item .item3{
+    background-color: #95a5a6;
+}
+
+.function-item .item4{
+    background-color: #f1540f;
+}
+
+.function-heading{
+    display: block;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    font-family: LatoHeavy, sans-serif;
+    text-transform: capitalize;
+    color: #303030;
+    margin-bottom: 7px;
+}
+
+.function-description{
+    font-size: 1rem;
+    line-height: 22px;
+    color: #7e7e7e;
+    font-family: LatoLight, sans-serif;
+}
+
+
+
 
 
 
